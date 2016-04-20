@@ -1,0 +1,10 @@
+// Номер порта на котором будет слушать rtserver
+exports.port = 8089;
+// Путь к сертификату
+exports.cert = __dirname + '/ssl/rtserver.crt';
+// Путь к закрытому ключу сертификата
+exports.key = __dirname + '/ssl/rtserver.key';
+// Подключени к редис
+exports.redisPort = 6379;
+exports.redisHost = '127.0.0.1';
+exports.redisDbNum = 0;

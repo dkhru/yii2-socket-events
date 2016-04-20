@@ -1,0 +1,21 @@
+{
+    "name": "dkhru/yii2-socket-events",
+    "description": "Best way to update content on client from server",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension", "socket.io", "web socket", "client server"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dmitriy Khristianov",
+            "email": "support@dkh.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dkhru\\socketEvents\\": ""
+        }
+    }
+}
